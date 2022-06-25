@@ -1,0 +1,12 @@
+---
+- name: install emacs stuff
+  apt:
+    pkg:
+      - emacs-lucid
+      - libvterm-bin
+      - libvterm-dev
+      - cmake
+      - build-essential
+
+
+  

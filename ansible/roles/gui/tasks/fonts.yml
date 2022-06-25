@@ -1,0 +1,10 @@
+---
+- name: install graphical fonts
+  apt:
+    pkg:
+      - fonts-mononoki
+      - fonts-go
+      - fonts-droid-fallback
+      - fonts-unifont
+      - fonts-roboto
+

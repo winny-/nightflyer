@@ -1,4 +1,6 @@
 ---
 # tasks file for gui
-- include_tasks: xserver.yml
-- include_tasks: tools.yml
+- import_tasks: xserver.yml
+- import_tasks: fonts.yml
+- import_tasks: tools.yml
+- import_tasks: emacs.yml
