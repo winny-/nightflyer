@@ -7,4 +7,6 @@
     vtype: boolean
 - name: install non-free firmware
   apt:
-     pkg: firmware-ipw2x00
+     pkg:
+       - firmware-ipw2x00
+       - firmware-amd-graphics
