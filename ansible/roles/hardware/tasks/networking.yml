@@ -4,6 +4,7 @@
     pkg: network-manager
 - name: ifdown ethernet
   command: 'ifdown enp2s1'
+  ignore_errors: true
   register: ifdown_ethernet  # XXX
 - name: disable ifupdown
   copy:
