@@ -7,13 +7,16 @@ Most of the configuration for my thinkpad x31 running Debian testing.
 ** Requirements
 
 - Debian testing bookworm
-- `apt install ansible`
+- =apt install ansible=
 
 ** Getting started
 
-```bash
-sudo ansible-playbook -i inventory main.yml
-```
+#+begin_src bash
+  sudo ansible-playbook -i inventory main.yml
+#+end_src
+
+(TODO: run with become.)
+
 ** License
 
-MIT/X
+MIT/X.  See [[file:LICENSE][LICENSE]].
