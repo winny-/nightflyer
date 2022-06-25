@@ -1,0 +1,4 @@
+---
+# tasks file for gui
+- include_tasks: xserver.yml
+- include_tasks: tools.yml

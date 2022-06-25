@@ -27,3 +27,4 @@
       - man
       - info
       - keychain
+      - strace

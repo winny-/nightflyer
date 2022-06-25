@@ -3,4 +3,6 @@
   hosts: '*'
   roles:
     - role: base
+    - role: hardware
+    - role: gui
 

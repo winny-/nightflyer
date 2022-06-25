@@ -1,0 +1,14 @@
+---
+- name: install standard graphical software
+  apt:
+    pkg:
+      - ratpoison
+      - xterm
+      - sxiv
+      - zathura
+      - firefox-esr
+      - emacs-lucid
+      - xclip
+      - xdotool
+      - xsel
+

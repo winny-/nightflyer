@@ -1,0 +1,5 @@
+---
+- name: install sound support
+  apt:
+    pkg: alsa-tools
+
