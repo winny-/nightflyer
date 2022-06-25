@@ -28,3 +28,7 @@
       - info
       - keychain
       - strace
+      - mtr
+      - iperf3
+      - hw-probe
+      - neofetch
