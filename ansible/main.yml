@@ -1,0 +1,6 @@
+---
+- become: yes
+  hosts: '*'
+  roles:
+    - role: base
+

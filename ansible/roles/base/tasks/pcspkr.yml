@@ -1,0 +1,10 @@
+- name: rmmod pcspkr
+  modprobe:
+    name: pcspkr
+    state: absent
+- name: blacklist pcspkr
+  copy:
+    content: |
+      blacklist pcspkr
+    dest: /etc/modprobe.d/pcspkr.conf
+

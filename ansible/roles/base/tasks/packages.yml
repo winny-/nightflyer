@@ -1,0 +1,29 @@
+---
+- name: enable non-free and contrib packages
+  apt_repository:
+    repo: "deb http://deb.debian.org/debian/ bookworm main contrib non-free"
+  register: deb_repo
+- name: enable non-free and contribe sources
+  apt_repository:
+    repo: "deb-src http://deb.debian.org/debian/ bookworm main contrib non-free"
+  register: src_repo
+- name: refresh repos if needed
+  when: deb_repo.changed or src_repo.changed
+  apt:
+    update_cache: yes
+- loop:
+  name: install standard software
+  apt:
+    pkg:
+      - git-core
+      - gnupg2
+      - pass
+      - stow
+      - ansible
+      - tmux
+      - lynx
+      - htop
+      - doc-base
+      - man
+      - info
+      - keychain

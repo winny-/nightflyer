@@ -1,0 +1,19 @@
+#+startup: indent
+
+* nightflyer
+
+Most of the configuration for my thinkpad x31 running Debian testing.
+
+** Requirements
+
+- Debian testing bookworm
+- `apt install ansible`
+
+** Getting started
+
+```bash
+sudo ansible-playbook -i inventory main.yml
+```
+** License
+
+MIT/X
