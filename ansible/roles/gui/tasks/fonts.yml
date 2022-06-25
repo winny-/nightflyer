@@ -7,4 +7,7 @@
       - fonts-droid-fallback
       - fonts-unifont
       - fonts-roboto
-
+- name: custom font configuration
+  synchronize:
+    src: files/etc/fonts/conf.d/
+    dest: /etc/fonts/conf.d

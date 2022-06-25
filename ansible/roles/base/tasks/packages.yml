@@ -22,6 +22,7 @@
       - ansible
       - tmux
       - lynx
+      - rsync
       - htop
       - doc-base
       - man
