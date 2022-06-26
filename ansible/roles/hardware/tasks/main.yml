@@ -7,3 +7,5 @@
   include_tasks: disable-bluetooth.yml
 - name: include sound.yml
   include_tasks: sound.yml
+- name: import laptop.yml
+  include_tasks: laptop.yml

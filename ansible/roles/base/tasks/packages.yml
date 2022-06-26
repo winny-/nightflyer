@@ -33,3 +33,4 @@
       - iperf3
       - hw-probe
       - neofetch
+      - mosh

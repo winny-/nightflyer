@@ -7,7 +7,7 @@
       - sxiv
       - zathura
       - firefox-esr
-      - netsurf
+      - netsurf-gtk
       - links2
       - xclip
       - xdotool
