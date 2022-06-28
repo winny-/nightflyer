@@ -12,4 +12,7 @@
       - xclip
       - xdotool
       - xsel
+      - maim
+      - slop
+      - scrot
 
