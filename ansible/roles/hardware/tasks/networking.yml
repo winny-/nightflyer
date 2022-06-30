@@ -2,10 +2,9 @@
 - name: install network-manager
   apt:
     pkg: network-manager
-- name: ifdown ethernet
-  command: 'ifdown enp2s1'
-  ignore_errors: true
-  register: ifdown_ethernet  # XXX
+- name: Stop ifupdown networks
+  command: 'ifdown -a'
+  register: ifdown_ethernet
 - name: disable ifupdown
   copy:
     content: |
