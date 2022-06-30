@@ -13,6 +13,7 @@
       - xdotool
       - xsel
       - maim
+      - neofetch
       - slop
       - scrot
 
