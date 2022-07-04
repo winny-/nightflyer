@@ -1,0 +1,12 @@
+- name: Ensure gett@tty1.service dir exists
+  file:
+    path: /etc/systemd/system/getty@tty1.service.d
+    state: directory
+- name: Create getty@tty1.service override
+  copy:
+    content: |
+      [Service]
+      Type=simple
+      ExecStart=
+      ExecStart=-/sbin/agetty --autologin winston --noclear %I 38400 linux
+    dest:  /etc/systemd/system/getty@tty1.service.d/override.conf
