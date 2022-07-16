@@ -4,6 +4,10 @@
 
 Most of the configuration for my thinkpad x31 running Debian testing.
 
+** Screenshots
+
+[[file:misc/desktop.png]] [[file:misc/ansible.png]]
+
 ** Requirements
 
 - Debian testing bookworm
@@ -20,3 +24,4 @@ Most of the configuration for my thinkpad x31 running Debian testing.
 ** License
 
 MIT/X.  See [[file:LICENSE][LICENSE]].
+
